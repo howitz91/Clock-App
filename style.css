@@ -1,0 +1,25 @@
+body{
+    background:linear-gradient(rgba(255,255,255,.55), rgba(255,255,255,.55)),url('https://cdn.pixabay.com/photo/2016/08/26/15/14/music-notes-1622424__340.jpg');
+}
+.container{
+width: 60%;
+border: 2px solid red;
+padding: 15px;
+margin-left:auto;
+text-align: center
+}
+.jumbotron{
+    padding:15px;
+    margin-left:250px;
+    width:60%;
+    opacity: 0.8;
+    text-align: center;
+}
+.photo{
+    margin-right:200px;
+}
+.zep{
+    
+    height: 310px;
+}
+    
