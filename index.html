@@ -5,16 +5,17 @@
   <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Covered+By+Your+Grace" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  
 </head>
 <body>
 
     <div class = "jumbotron">
         <header>
-        <h1> ROCK AROUND THE CLOCK</h1>
+        <h1  id = "title"> ROCK AROUND THE CLOCK</h1>
         <h4> Its always time to ROCK!</h4>
         </header>
     <div class = "container">
-        <span id="clock">Clock goes here</span>
+        <span onLoad ="renderTime()" id="clockDisplay">Clockkkkk</span>
         
     </div>
     <div class = "container">
@@ -29,10 +30,10 @@
     </select>
     <br>
         <br>
-    <button id="rockTime">ROCK</button>
+    <button class="btn btn-primary btn-lg btn-block" id="rockTime">ROCK</button>
     </div>
 </div>
+     <script type="text/javascript" src="/introToCommandLine/ClockApp/script.js"></script>
     
-     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
